@@ -139,7 +139,7 @@ input[type="tel"]:focus {
 .btn-main:hover,
 .btn-transparent:hover,
 .btn-small:hover {
-  background: #000;
+  background: #525250;
   color: #fff;
 }
 
@@ -741,10 +741,6 @@ ul.dropdown-menu li {
   opacity: 0.4;
 }
 
-.service-markiting{
-  /* display: none; */
-  /* position: absolute; */
-}
 .service-markiting i {
   opacity: 1;
 }
