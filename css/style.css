@@ -176,8 +176,8 @@ input[type="tel"]:focus {
 }
 
 .btn-small {
-  padding: 10px 25px;
-  font-size: 12px;
+  padding: 6px 20px;
+  font-size: 16px;
 }
 
 .btn-round {
@@ -492,7 +492,7 @@ a:focus {
 }
 
 .header-top .header-top-info a {
-  margin-left: 35px;
+  margin-right: 35px;
   color: #919194;
 }
 
@@ -568,7 +568,7 @@ ul.dropdown-menu li {
   background: url("../images/bg/home-1.jpg") no-repeat;
   background-size: cover;
   background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  padding: 100px 0 180px 0;
   position: relative;
 }
 
@@ -799,6 +799,9 @@ ul.dropdown-menu li {
   height: 55%;
 }
 
+.lh-15 {
+  line-height: 45px;
+}
 .lh-45 {
   line-height: 45px;
 }
