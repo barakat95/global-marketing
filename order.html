@@ -12,8 +12,7 @@
     <meta name="author" content=" .com" />
 
     <title>العالمية | لكافة خدمات التسويق | البرمجة | التصميم</title>
-    <link rel="icon" href="favicon.ico" type="icon">
-
+    <link rel="icon" href="favicon.ico" type="icon" />
 
     <!-- bootstrap.min css -->
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
@@ -44,31 +43,39 @@
           <div class="row justify-content-between align-items-center">
             <div class="col-lg-6 col-md-12">
               <div
-              class="header-top-socials text-center text-lg-right text-md-left"
-            >
-              <a
-                href="https://www.facebook.com/Globaldmarketing1/"
-                target="_blank" class="color-four"
-                ><i class="ti-facebook mr-2"></i>Facebook</a
+                class="header-top-socials text-center text-lg-right text-md-left"
               >
+                <a
+                  href="https://www.facebook.com/Globaldmarketing1/"
+                  target="_blank"
+                  class="color-four"
+                  ><i class="ti-facebook mr-2"></i>Facebook</a
+                >
 
-              <a href="https://www.instagram.com/glooo_m1/ " target="_blank" class="color-five"
-                ><i class="ti-instagram mr-2"></i>Instagram</a
-              >
+                <a
+                  href="https://www.instagram.com/glooo_m1/ "
+                  target="_blank"
+                  class="color-five"
+                  ><i class="ti-instagram mr-2"></i>Instagram</a
+                >
 
-              <a href="https://twitter.com/glooo_m1" target="_blank" class="color-three"
-                ><i class="ti-twitter-alt mr-2"></i>Twitter</a
-              >
-              <a
-                href="https://api.whatsapp.com/send?phone=00966543513997"
-                dir="ltr" class="color-two"
-                ><img
-                  src="./images/whatsapp-header.png"
-                  alt=""
-                  class="mr-2 mb-1"
-                />Whatsapp
-              </a>
-            </div>
+                <a
+                  href="https://twitter.com/glooo_m1"
+                  target="_blank"
+                  class="color-three"
+                  ><i class="ti-twitter-alt mr-2"></i>Twitter</a
+                >
+                <a
+                  href="https://api.whatsapp.com/send?phone=00966543513997"
+                  dir="ltr"
+                  class="color-two"
+                  ><img
+                    src="./images/whatsapp-header.png"
+                    alt=""
+                    class="mr-2 mb-1"
+                  />Whatsapp
+                </a>
+              </div>
             </div>
             <div class="col-lg-6 col-md-12 text-left text-lg-left text-md-left">
               <div class="header-top-info">
@@ -77,8 +84,8 @@
                 >
                 <a href="mailto:info@global-dmarketing.com"
                   ><i class="fa fa-envelope ml-2"></i
-                    ><span>info@global-dmarketing.com</span
-                  ></a>
+                  ><span>info@global-dmarketing.com</span></a
+                >
               </div>
             </div>
           </div>
@@ -123,7 +130,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="service.html">خدماتنا</a>
               </li>
-               <li class="nav-item">
+              <li class="nav-item">
                 <a class="nav-link" href="pricing.html">الباقات</a>
               </li>
 
@@ -132,12 +139,10 @@
               </li>
             </ul>
             <div>
-              <a
-                class="btn btn-small btn-round-full"
-                href="order.html"
+              <a class="btn btn-small btn-round-full" href="order.html"
                 >طلب الخدمة</a
               >
-            </div>            
+            </div>
           </div>
         </div>
       </nav>
@@ -152,7 +157,7 @@
             <div class="col-md-12">
               <div class="block text-center">
                 <!-- <span class="text-white">تواصل معنا</span> -->
-                <h1 class="text-capitalize mb-4 text-lg">تواصل معنا</h1>
+                <h1 class="text-capitalize mb-4 text-lg">طلب الخدمة</h1>
               </div>
             </div>
           </div>
@@ -162,7 +167,7 @@
       <section class="contact-form-wrap section">
         <div class="container text-right">
           <div class="row">
-            <!-- <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="col-lg-6 col-md-12 col-sm-12">
               <form
                 id="contact-form"
                 class="contact__form"
@@ -176,11 +181,11 @@
                       style="display: none"
                       role="alert"
                     >
-                      Your message was sent successfully.
+                      تم ارسال الرسالة بنجاح
                     </div>
                   </div>
                 </div>
-                <span class="text-color">ارسل رسالة</span>
+                <span class="text-color">لتحميل الكتيب و طلب الخدمة</span>
                 <h3 class="text-md mb-4">معلومات التواصل</h3>
                 <div class="form-group">
                   <input
@@ -188,6 +193,7 @@
                     type="text"
                     class="form-control"
                     placeholder="الاسم بالكامل"
+                    required
                   />
                 </div>
                 <div class="form-group">
@@ -196,6 +202,7 @@
                     type="email"
                     class="form-control"
                     placeholder="عنوان البريد الالكتروني"
+                    required
                   />
                 </div>
                 <div class="form-group">
@@ -204,15 +211,26 @@
                     type="number"
                     class="form-control"
                     placeholder="رقم الهاتف"
+                    required
                   />
-                </div>               
-                <button class="btn btn-main" name="submit" type="submit">
+                </div>
+                <button
+                  class="btn btn-main"
+                  name="submit"
+                  type="submit"
+                  id="myAnchor"
+                >
                   ارسال الرسالة
                 </button>
               </form>
-            </div> -->
-
-            <div class="col-lg-6 col-sm-12">
+            </div>
+            <a
+              href="./files/50نصيحة ذهبية في التسويق الالكتروني.pdf"
+              download
+              id="bookId"
+              class="d-none"
+            ></a>
+            <!-- <div class="col-lg-6 col-sm-12">
               <div class="contact-content pl-lg-5 mt-5 mt-lg-0">
                 <h2 class="mb-5 mt-2 mr-4">
                   لا تتردد في التواصل معنا لأي نوع من الاستفسارات أو الخدمات
@@ -252,19 +270,11 @@
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
 
-      <div class="google-map">
-        <!-- <div id="map"></div> -->
-        <iframe
-          src="https://www.google.com/maps/d/embed?mid=19mM22zvMAjHy8YThLomJzdY7v5Q"
-          width="100%"
-          height="600"
-        ></iframe>
-      </div>
       <!-- footer Start -->
       <footer class="footer section">
         <div class="container text-right">
@@ -326,24 +336,31 @@
                   <li class="list-inline-item">
                     <a
                       href="https://www.facebook.com/Globaldmarketing1/"
-                      target="_blank" class="color-four"
+                      target="_blank"
+                      class="color-four"
                       ><i class="ti-facebook mr-2"></i>Facebook</a
                     >
                   </li>
                   <li class="list-inline-item">
                     <a
                       href="https://www.instagram.com/glooo_m1/ "
-                      target="_blank" class="color-five"
+                      target="_blank"
+                      class="color-five"
                       ><i class="ti-instagram mr-2"></i>Instagram</a
                     >
                   </li>
                   <li class="list-inline-item">
-                    <a href="https://twitter.com/glooo_m1" target="_blank" class="color-three"
+                    <a
+                      href="https://twitter.com/glooo_m1"
+                      target="_blank"
+                      class="color-three"
                       ><i class="ti-twitter-alt mr-2"></i>Twitter</a
                     >
                   </li>
                   <li class="list-inline-item">
-                    <a href="https://api.whatsapp.com/send?phone=00966543513997" class="color-two"
+                    <a
+                      href="https://api.whatsapp.com/send?phone=00966543513997"
+                      class="color-two"
                       >Whatsapp<img
                         src="./images/whatsapp-header-24.png"
                         alt=""

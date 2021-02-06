@@ -95,23 +95,8 @@
     time: 1000,
   });
 
-  let offsetContent = jQuery(".section-markiting").offset().top;
-  let offsetFooter = jQuery(".footer").offset().footer;
-
-  $(document).scroll(function () {
-    let y = $(this).scrollTop();
-
-    // console.log('offsetContent');
-    // console.log(offsetContent);
-    // console.log('y');
-    // // console.log(y);
-    // if (y > offsetContent) {
-    //   console.log("reached");
-    //   console.log("reached");
-    //   console.log("reached");
-    //   $(".service-markiting").animate({left: '250px'});
-    // } else {
-    //     // $('.service-markiting').hide();
-    // }
+  document.getElementById("myAnchor").addEventListener("click", () => {
+    console.log("clicked");
+    document.getElementById("bookId").click();
   });
 })(jQuery);

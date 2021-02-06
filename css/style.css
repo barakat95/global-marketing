@@ -335,7 +335,9 @@ a {
   color: #242424;
   text-decoration: none;
 }
-
+.header-top-socials a:hover {
+  color: white;
+}
 a:focus,
 a:hover {
   color: #ab762a;
@@ -477,7 +479,7 @@ a:focus {
 }
 
 .header-top .header-top-socials a {
-  color: #919194;
+  /* color: #919194; */
   margin-right: 15px;
   font-size: 16px;
 }
@@ -608,11 +610,17 @@ ul.dropdown-menu li {
 }
 
 .color-three {
-  color: #9262ff;
+  color: #00acee;
 }
 
 .color-four {
-  color: #088ed3;
+  color: #3b5998;
+}
+.color-five {
+  color: #cd486b;
+}
+.color-six{
+  color: #525250
 }
 
 .bg-about {
@@ -818,7 +826,15 @@ ul.dropdown-menu li {
 .pricing .btn-solid-border:hover {
   border-color: #ab762a;
 }
-
+.card-border-gold {
+  border: #ab762a 5px solid;
+}
+.card-border-silver {
+  border: #a19f9f 5px solid;
+}
+.card-body-main {
+  background-color: #ab762a;
+}
 .portflio-item .portfolio-item-content {
   position: absolute;
   content: "";
